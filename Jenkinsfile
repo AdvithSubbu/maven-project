@@ -1,6 +1,10 @@
 pipeline
 {
 	agent any
+	tools { 
+        maven 'localMaven' 
+        jdk 'localJDKkkt' 
+    		}
 	stages
 	{
 		stage('Initialize')
