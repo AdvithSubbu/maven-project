@@ -8,6 +8,8 @@ pipeline
 			steps
 				{
 					echo "Initialize stage"
+					  echo "PATH = ${PATH}"
+                   			 echo "M2_HOME = ${M2_HOME}"
 				}
 		}
 		
